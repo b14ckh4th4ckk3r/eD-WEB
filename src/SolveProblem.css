@@ -1,0 +1,119 @@
+.solve-problem-container {
+    display: flex;
+    height: 100vh;
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  .problem-description {
+    flex: 1;
+    background: #1c1c1c;
+    padding: 20px;
+    overflow-y: auto; /* Scrollable description */
+    border-right: 1px solid #2e2e2e;
+    max-height: 80vh;
+    text-align: left;
+    white-space: pre-wrap;
+  }
+  
+  .problem-description h1 {
+    font-size: 1.8rem;
+  }
+  
+  .problem-description p, pre {
+    color: #9fa3a7;
+  }
+  
+  .difficulty {
+    font-weight: bold;
+  }
+  
+  .difficulty.easy {
+    color: #1abc9c;
+  }
+  
+  .code-section {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    overflow-y: auto;
+    max-height: 80vh;
+  }
+  
+  .code-editor-container {
+    flex: 1;
+    background: #1c1c1c;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .editor-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    max-height: 40px;
+  }
+  
+  .language-select {
+    width: auto;
+    padding: 10px 15px; /* More padding for better size */
+    background: #2e2e2e;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .language-select:focus {
+    outline: none; /* Remove focus outline for cleaner look */
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 10px; /* More spacing between buttons */
+     /* Margin to create space from the code area */
+  }
+  
+  .run-btn, .submit-btnn {
+    background: #1abc9c;
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px; /* Larger padding for better size */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem; /* Ensures consistent font size */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+  }
+  
+  .run-btn:hover, .submit-btnn:hover {
+    background-color: #16a085; /* Darker shade on hover */
+  }
+  
+  .test-case-section {
+    flex: 1;
+    background: #1c1c1c;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .test-case-section textarea {
+    width: 100%;
+    height: 100px;
+    background: #2e2e2e;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .output {
+    background: #2e2e2e;
+    color: #1abc9c;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  

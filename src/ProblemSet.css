@@ -1,0 +1,168 @@
+
+.problemset-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color: #ffffff;
+    height: 100vh; /* Full viewport height */
+  }
+  .problemset-header {
+    background-color: #121212;
+    border-bottom: 1px solid #2e2e2e; /* Optional, for visual separation */
+    position: sticky; /* Keep header fixed at the top */
+    top: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  .problemset-header h1 {
+    font-size: 2rem;
+    margin: 0;
+    align-content: center;
+    padding: 10px;
+  }
+  
+  .problemset-header p {
+    color: #9fa3a7;
+    margin: 5px 0;
+  }
+  
+  .progress {
+    width: 10%; /* Example progress */
+    height: 100%;
+    background-color: #1abc9c;
+    border-radius: 5px;
+  }
+  
+  .filter-search {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 75px;
+  }
+  
+  .search-bar {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #2e2e2e;
+    color: white;
+    margin: 10px;
+  }
+  
+  .sort-btn {
+    background-color: #2e2e2e;
+    color: #9fa3a7;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .problemset-body {
+    display: flex;
+    gap: 200px;
+    flex-grow: 1;
+  }
+  
+  .problem-list {
+    flex: 2;
+    max-height: calc(100vh - 105px); /* Adjust height to fit the viewport minus header */
+    overflow-y: auto; /* Enable vertical scroll in the problem list */
+    padding-right: 10px; /* Optional for spacing */
+    text-align: left;
+  }
+  
+  .problem-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1c1c1c;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+  }
+  
+  .problem-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+
+  .problem-details{
+    max-width: 325px;
+    overflow-wrap: break-word
+
+  }
+  .companies span {
+    font-size: 0.9rem;
+    color: #076adc;
+    margin-right: 10px;
+  }
+  
+  .problem-info {
+    display: flex;
+    gap: 10px;
+    color: #9fa3a7;
+  }
+  
+  .solve-btn {
+    background-color: #1abc9c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .problem-sidebar {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-height: calc(100vh - 105px); /* Make sidebar scrollable if needed */
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+  
+  .problem-of-the-day, .job-hiring-challenge {
+    background-color: #1c1c1c;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .problem-of-the-day h2 {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: #1abc9c;
+  }
+  
+  .timer {
+    font-size: 1.2rem;
+    color: #9fa3a7;
+    margin: 10px 0;
+  }
+  
+  .solve-problem-btn {
+    background-color: #1abc9c;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .job-hiring-challenge h2 {
+    font-size: 1.1rem;
+    color: #0961e4;
+    margin-bottom: 10px;
+  }
+  
+  .job-hiring-challenge p {
+    font-size: 0.9rem;
+    color: #9fa3a7;
+  }
+  
+  .register-now {
+    color: #1abc9c;
+    text-decoration: none;
+  }
+  
